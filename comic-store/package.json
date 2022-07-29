@@ -2,22 +2,21 @@
   "name": "comic-store",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "animate.css": "^4.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "query-string": "^7.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-router-dom": "6"
   },
   "devDependencies": {
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.0",
-    "vite": "^3.0.0"
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.7"
   }
 }

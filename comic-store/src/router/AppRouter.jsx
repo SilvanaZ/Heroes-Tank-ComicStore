@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
-import { HeroesRoutes } from '../heroes';
+import { HeroesRoutes } from '../heroes/routes/HeroesRoutes'
 import { LoginPage } from '../auth';
 
 
