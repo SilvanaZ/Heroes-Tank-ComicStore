@@ -1,3 +1,28 @@
 body {
-  background-color: darkred;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(147, 189, 214);
+}
+.card {
+  background-image: linear-gradient(163deg, #a3c6e7 0%, #ffff 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.card2 {
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.card2 :hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.card :hover img {
+  box-shadow: 0px 0px 30px 1px rgba(4, 0, 255, 0.3);
+  border-radius: 50px;
 }
